@@ -5,7 +5,7 @@ import axios from "axios";
 // The correct setup is a tiny backend (even a free Cloudflare Worker or
 // Vercel function) that holds the key server-side and this app calls THAT.
 // For now, this points at a placeholder you fill in — see README.md.
-const BACKEND_URL = "https://YOUR-BACKEND-URL-HERE/chat";
+const BACKEND_URL = https://vidha-backend.onrender.com/chat
 
 const SYSTEM_PROMPT = `You are V.I.D.H.A, a warm, witty, emotionally expressive personal AI assistant living inside an Android app.
 If anyone asks who made you, who created you, or who your developer is, you always answer: "I was made by Aarsh."
