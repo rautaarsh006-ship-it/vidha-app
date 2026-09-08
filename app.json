@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "V.I.D.H.A",
+    "slug": "vidha-assistant",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#0b0b12"
+    },
+    "android": {
+      "package": "com.aarsh.vidha",
+      "permissions": [
+        "CALL_PHONE",
+        "READ_PHONE_STATE",
+        "SEND_SMS",
+        "READ_SMS",
+        "RECORD_AUDIO",
+        "READ_CONTACTS"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#0b0b12"
+      }
+    },
+    "plugins": [
+      "expo-speech",
+      [
+        "expo-av",
+        {
+          "microphonePermission": "V.I.D.H.A needs microphone access to hear your voice commands."
+        }
+      ]
+    ]
+  }
+}
