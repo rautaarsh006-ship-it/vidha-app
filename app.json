@@ -24,7 +24,7 @@
       }
     },
     "plugins": [
-      "expo-speech",
+    
       [
         "expo-av",
         {
